@@ -1,0 +1,24 @@
+
+[2026-02-05T10:44:53.338Z]
+User ID: alice@upi
+Transaction ID: TXN-1770288293238
+Risk Level: SAFE
+Probability: 0.25
+Allowed: true
+---------------------------------------
+
+[2026-02-05T11:04:29.856Z]
+User ID: john.doe@upi
+Transaction ID: TXN-1770289469762
+Risk Level: SAFE
+Probability: 0.25
+Allowed: true
+---------------------------------------
+
+[2026-02-05T11:08:38.715Z]
+User ID: alice@upi
+Transaction ID: TXN-1770289718696
+Risk Level: SAFE
+Probability: 0.25
+Allowed: true
+---------------------------------------
