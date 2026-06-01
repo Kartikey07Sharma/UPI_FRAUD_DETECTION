@@ -1,0 +1,151 @@
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+✅ Server running on http://localhost:5000
+✅ MySQL Connected Successfully
+📨 [DEBUG] Start checkFraud: {
+  senderId: 'fraud1@upi',
+  receiverId: 'friend@upi',
+  amount: 100,
+  device_id: 'dev_1',
+  geo_location: '19.0760_72.8777',
+  upi_created_date: '2023-01-01'
+}
+🆔 [DEBUG] Generated TransactionID: TXN-1774433096202-476
+💾 [DEBUG] Pre-recording transaction...
+✅ [DEBUG] Transaction pre-recorded
+👤 [DEBUG] Fetching profile for: fraud1@upi
+✅ [DEBUG] Profile fetched: Found
+📊 [DEBUG] Prepared ML Features: {
+  "account_age_days": 827,
+  "days_active": 302,
+  "txn_count_day": "2.0695",
+  "avg_txn_amount": "45606.57",
+  "failed_txn_ratio": "0.3504",
+  "refund_ratio": "0.2656",
+  "device_switch_ratio": "0.0080",
+  "geo_switch_ratio": "0.0112",
+  "avg_txn_time_gap": "50478.65"
+}
+🤖 [DEBUG] Calling predictFraud...
+❌ ML service error (500): Internal Server Error
+Error calling ML service: Error: ML service responded with status 500: Internal Server Error
+    at getFraudPrediction (file:///E:/TESTING%202/Backend/services/fraudPrediction.service.js:24:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async predictFraud (file:///E:/TESTING%202/Backend/services/fraudPrediction.service.js:41:25)
+    at async checkFraud (file:///E:/TESTING%202/Backend/controllers/fraud.controller.js:138:24)
+❌ [DEBUG] Fraud check error: ML service responded with status 500: Internal Server Error
+❌ [DEBUG] Error stack: Error: ML service responded with status 500: Internal Server Error
+    at getFraudPrediction (file:///E:/TESTING%202/Backend/services/fraudPrediction.service.js:24:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async predictFraud (file:///E:/TESTING%202/Backend/services/fraudPrediction.service.js:41:25)
+    at async checkFraud (file:///E:/TESTING%202/Backend/controllers/fraud.controller.js:138:24)
+📨 [DEBUG] Start checkFraud: {
+  senderId: 'fraud1@upi',
+  receiverId: 'friend@upi',
+  amount: 100,
+  device_id: 'dev_1',
+  geo_location: '19.0760_72.8777',
+  upi_created_date: '2023-01-01'
+}
+🆔 [DEBUG] Generated TransactionID: TXN-1774435753619-329
+💾 [DEBUG] Pre-recording transaction...
+✅ [DEBUG] Transaction pre-recorded
+👤 [DEBUG] Fetching profile for: fraud1@upi
+✅ [DEBUG] Profile fetched: Found
+📊 [DEBUG] Prepared ML Features: {
+  "account_age_days": 827,
+  "days_active": 302,
+  "txn_count_day": "2.0695",
+  "avg_txn_amount": "45606.57",
+  "failed_txn_ratio": "0.3504",
+  "refund_ratio": "0.2656",
+  "device_switch_ratio": "0.0080",
+  "geo_switch_ratio": "0.0112",
+  "avg_txn_time_gap": "50478.65"
+}
+🤖 [DEBUG] Calling predictFraud...
+❌ ML service error (500): Internal Server Error
+Error calling ML service: Error: ML service responded with status 500: Internal Server Error
+    at getFraudPrediction (file:///E:/TESTING%202/Backend/services/fraudPrediction.service.js:24:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async predictFraud (file:///E:/TESTING%202/Backend/services/fraudPrediction.service.js:41:25)
+    at async checkFraud (file:///E:/TESTING%202/Backend/controllers/fraud.controller.js:138:24)
+❌ [DEBUG] Fraud check error: ML service responded with status 500: Internal Server Error
+❌ [DEBUG] Error stack: Error: ML service responded with status 500: Internal Server Error
+    at getFraudPrediction (file:///E:/TESTING%202/Backend/services/fraudPrediction.service.js:24:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async predictFraud (file:///E:/TESTING%202/Backend/services/fraudPrediction.service.js:41:25)
+    at async checkFraud (file:///E:/TESTING%202/Backend/controllers/fraud.controller.js:138:24)
+📨 [DEBUG] Start checkFraud: {
+  senderId: 'fraud1@upi',
+  receiverId: 'friend@upi',
+  amount: 100,
+  device_id: 'dev_1',
+  geo_location: '19.0760_72.8777',
+  upi_created_date: '2023-01-01'
+}
+🆔 [DEBUG] Generated TransactionID: TXN-1774436005656-747
+💾 [DEBUG] Pre-recording transaction...
+✅ [DEBUG] Transaction pre-recorded
+👤 [DEBUG] Fetching profile for: fraud1@upi
+✅ [DEBUG] Profile fetched: Found
+📊 [DEBUG] Prepared ML Features: {
+  "account_age_days": 827,
+  "days_active": 302,
+  "txn_count_day": "2.0695",
+  "avg_txn_amount": "45606.57",
+  "failed_txn_ratio": "0.3504",
+  "refund_ratio": "0.2656",
+  "device_switch_ratio": "0.0080",
+  "geo_switch_ratio": "0.0112",
+  "avg_txn_time_gap": "50478.65"
+}
+🤖 [DEBUG] Calling predictFraud...
+❌ ML service error (500): Internal Server Error
+Error calling ML service: Error: ML service responded with status 500: Internal Server Error
+    at getFraudPrediction (file:///E:/TESTING%202/Backend/services/fraudPrediction.service.js:24:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async predictFraud (file:///E:/TESTING%202/Backend/services/fraudPrediction.service.js:41:25)
+    at async checkFraud (file:///E:/TESTING%202/Backend/controllers/fraud.controller.js:138:24)
+❌ [DEBUG] Fraud check error: ML service responded with status 500: Internal Server Error
+❌ [DEBUG] Error stack: Error: ML service responded with status 500: Internal Server Error
+    at getFraudPrediction (file:///E:/TESTING%202/Backend/services/fraudPrediction.service.js:24:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async predictFraud (file:///E:/TESTING%202/Backend/services/fraudPrediction.service.js:41:25)
+    at async checkFraud (file:///E:/TESTING%202/Backend/controllers/fraud.controller.js:138:24)
+📨 [DEBUG] Start checkFraud: {
+  senderId: 'fraud1@upi',
+  receiverId: 'friend@upi',
+  amount: 100,
+  device_id: 'dev_1',
+  geo_location: '19.0760_72.8777',
+  upi_created_date: '2023-01-01'
+}
+🆔 [DEBUG] Generated TransactionID: TXN-1774436117981-202
+💾 [DEBUG] Pre-recording transaction...
+✅ [DEBUG] Transaction pre-recorded
+👤 [DEBUG] Fetching profile for: fraud1@upi
+✅ [DEBUG] Profile fetched: Found
+📊 [DEBUG] Prepared ML Features: {
+  "account_age_days": 827,
+  "days_active": 302,
+  "txn_count_day": "2.0695",
+  "avg_txn_amount": "45606.57",
+  "failed_txn_ratio": "0.3504",
+  "refund_ratio": "0.2656",
+  "device_switch_ratio": "0.0080",
+  "geo_switch_ratio": "0.0112",
+  "avg_txn_time_gap": "50478.65"
+}
+🤖 [DEBUG] Calling predictFraud...
+❌ ML service error (500): Internal Server Error
+Error calling ML service: Error: ML service responded with status 500: Internal Server Error
+    at getFraudPrediction (file:///E:/TESTING%202/Backend/services/fraudPrediction.service.js:24:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async predictFraud (file:///E:/TESTING%202/Backend/services/fraudPrediction.service.js:41:25)
+    at async checkFraud (file:///E:/TESTING%202/Backend/controllers/fraud.controller.js:138:24)
+❌ [DEBUG] Fraud check error: ML service responded with status 500: Internal Server Error
+❌ [DEBUG] Error stack: Error: ML service responded with status 500: Internal Server Error
+    at getFraudPrediction (file:///E:/TESTING%202/Backend/services/fraudPrediction.service.js:24:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async predictFraud (file:///E:/TESTING%202/Backend/services/fraudPrediction.service.js:41:25)
+    at async checkFraud (file:///E:/TESTING%202/Backend/controllers/fraud.controller.js:138:24)
